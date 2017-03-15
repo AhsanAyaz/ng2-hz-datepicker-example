@@ -1,0 +1,33 @@
+<div class="container main-container">
+  <h2 class="text-center">
+    {{title}}
+  </h2>
+
+  <section>
+    <div class="text-center">
+      <h3>View plugin docs <a href="https://github.com/AhsanAyaz/ng2-hz-datepicker">here</a></h3>
+    </div>
+  </section>
+
+  <section class="example-section">
+    <h3>Simple Datepicker Example</h3>
+    <div class="simple-dp">
+      <hz-date-picker [dpConfig]="simpleDpConfig"></hz-date-picker>
+    </div>
+  </section>
+  
+
+  <section class="example-section">
+    <h3>Datepicker with days Example</h3>
+    <div class="with-days-dp">
+      <hz-date-picker [dpConfig]="withDaysDpConfig"></hz-date-picker>
+    </div>
+  </section>
+
+  <section class="example-section">
+    <h3>Datepicker with bootstap Example</h3>
+    <div class="with-days-dp">
+      <hz-date-picker [dpConfig]="withBSDpConfig"></hz-date-picker>
+    </div>
+  </section>
+</div>
